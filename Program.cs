@@ -11,5 +11,6 @@ class Program
             var folder = Environment.GetFolderPath(specialFolder, Environment.SpecialFolderOption.DoNotVerify);
             Console.WriteLine($"{name}: {folder}");
         }
+        Console.WriteLine($"Environment.MachineName: {Environment.MachineName}");
     }
 }
